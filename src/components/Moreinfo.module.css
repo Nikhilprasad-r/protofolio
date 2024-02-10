@@ -1,0 +1,20 @@
+.moreInfo{
+  color:black;
+
+}
+
+.split{
+  display:flex;
+
+  justify-content: space-between;
+  
+}
+.skills{
+  float:left;
+  margin: 0 5%;
+  
+}
+.languages{
+  float:right;
+  margin: 0 5%;
+}

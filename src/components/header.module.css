@@ -1,0 +1,32 @@
+.total{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  border: 1px solid lightblue;
+  width: 100%;
+}
+.obj1{
+  color: blueviolet;
+ margin: 10px 20px;
+  }
+  .logo{
+    font-weight: 100;
+  }
+  .resumeDownloads{
+ color:blueviolet;
+ align-items: center;
+ padding-top: 15px;
+ margin-left: 0%;
+ border: 2px solid black;
+
+  }
+  .resumeview{
+    margin-right: 0%;
+    color: blueviolet;
+ margin: 10px 20px;
+ border: 2px solid black;
+  }
+
+  .downloadButton{
+    display:flex;
+  }

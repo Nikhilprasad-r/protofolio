@@ -1,0 +1,45 @@
+.component{
+  display:flex;
+  flex-direction: column;
+  color:blueviolet;
+  font-size: small;
+  height:auto;
+  width:150px;
+   background-color: #fcf5c7;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border:1px solid rgb(112, 103, 46);
+border-radius: 4px;
+padding :8px;
+align-items:center;
+}
+
+h1{
+  color: violet;
+  text-align: center;
+}
+.wave {
+
+  animation-name: wave-animation;  
+  animation-duration: 2.5s;       
+  animation-iteration-count: infinite;  
+  transform-origin: 70% 70%;       
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
+}
+.iconSocial{
+  display: flex;
+  color:black;
+}
+.styleIcons{
+  margin: 5px;
+}
